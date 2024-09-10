@@ -226,36 +226,34 @@ html {
     max-height: 100%;
   }
 
-  .header.fixed {
-    background: rgba(28, 29, 32, 0.8);
-    padding: 0 32px;
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: all 0.35s ease-in-out;
-  }
+ .header.fixed {
+   background: rgba(28, 29, 32, 0.8);
+   padding: 0 32px;
+   height: 72px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   transition: all 0.35s ease-in-out;
+   border: 1px solid transparent;
+   
+ }
 
-  .header.fixed:hover {
-    outline: 1px solid rgb(237, 59, 68, 0.8);
-  }
+ .header.fixed:hover {
+   border: 1px solid rgba(237, 59, 68, 0.8);
+   
+ }
 
-  /* Вирівнювання елементів хедера при скролі */
+  
   .header.fixed .header-container {
     width: 100%;
     padding: 0 32px;
-    /* Додаємо трохи відступу з боків */
-    display: flex;
+       display: flex;
     justify-content: space-between;
-    /* По краям горизонтально */
+   
     align-items: center;
-    /* По центру вертикально */
+    
   }
-  /* .header.fixed:hover .header-container{
-  border-bottom: 1px solid rgb(237, 59, 68, 0.8);
-} */
-
-  /* Сховати логотип при скролі */
+  
   .header.fixed .header-logo {
     display: none;
   }

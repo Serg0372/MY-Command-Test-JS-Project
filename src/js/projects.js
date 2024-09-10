@@ -1,7 +1,8 @@
 import Swiper from 'swiper';
-import { Scrollbar, EffectCards } from 'swiper/modules';
+import { Navigation, Scrollbar, EffectCards } from 'swiper/modules';
+
 new Swiper('.projects-swiper-container', {
-  modules: [Scrollbar, EffectCards],
+  modules: [Navigation, Scrollbar, EffectCards],
   direction: 'horizontal',
   loop: false,
   slidesPerView: 1,
@@ -14,8 +15,8 @@ new Swiper('.projects-swiper-container', {
     onlyInViewport: true,
   },
   navigation: {
-    nextEl: '.projects-btn-next',
-    prevEl: '.projects-btn-prev',
+    nextEl: '.projects-swiper-btn-next',
+    prevEl: '.projects-swiper-btn-prev',
     disabledClass: 'projects-swiper-btn-disabled',
   },
 });

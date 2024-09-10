@@ -1,14 +1,16 @@
+
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
 import Accordion from 'accordion-js';
 import 'accordion-js/dist/accordion.min.css';
 
+
 // INITIALIZE ACCORDION
 
 const container = document.querySelector('.about-accordion-container');
 
-new Accordion(container, {
+ new Accordion(container, {
   openOnInit: [0],
   showMultiple: false,
   duration: 500,
@@ -50,3 +52,5 @@ new Swiper('.about-skills', {
     },
   },
 });
+
+

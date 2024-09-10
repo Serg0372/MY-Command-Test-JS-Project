@@ -57,7 +57,7 @@ async function initSwiper() {
     await renderReviews();
 
     new Swiper('.reviews-swiper', {
-        modules: [Navigation, Keyboard],
+        modules: [Keyboard],
         direction: 'horizontal',
         slidesPerView: 1,
         spaceBetween: 16,

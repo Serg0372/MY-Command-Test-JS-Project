@@ -1,9 +1,11 @@
 .hero {
   position: relative;
-  background: linear-gradient(270deg,
-      #1c1d20 49.68%,
-      #69292d 67.73%,
-      #ed3b44 100%);
+  background: linear-gradient(
+    270deg,
+    #1c1d20 49.68%,
+    #69292d 67.73%,
+    #ed3b44 100%
+  );
 
   z-index: 0;
   padding-top: 281px;
@@ -19,21 +21,25 @@
   overflow: hidden;
   display: flex;
   z-index: -1;
-  mask-image: linear-gradient(to right,
-      rgba(0, 0, 0, 1) 90%,
-      rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .background-effect {
   margin-left: -5px;
   width: 57px;
   backdrop-filter: blur(100px);
-  background: linear-gradient(90deg,
-      rgba(20, 20, 20, 0.2) 0%,
-      rgba(0, 0, 0, 0.1) 16.66%,
-      rgba(15, 15, 15, 0.2) 16.67%,
-      rgba(0, 0, 0, 0.2) 35%,
-      rgba(100, 100, 100, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 20, 20, 0.2) 0%,
+    rgba(0, 0, 0, 0.1) 16.66%,
+    rgba(15, 15, 15, 0.2) 16.67%,
+    rgba(0, 0, 0, 0.2) 35%,
+    rgba(100, 100, 100, 0) 100%
+  );
   flex-shrink: 0;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -61,7 +67,7 @@
   }
 
   66% {
-    color: #1C1D20;
+    color: #1c1d20;
     /* Третій колір */
   }
 
@@ -78,7 +84,6 @@
   text-transform: uppercase;
   color: #fafafa;
   animation: colorCycle 10s linear infinite;
-
 }
 
 .hero-list {
@@ -93,7 +98,6 @@
   margin-bottom: 40px;
 }
 
-
 .hero-social-link {
   color: #fafafa;
   display: flex;
@@ -106,31 +110,25 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: transparent;
   border-radius: 60px;
-  transition: .35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 @keyframes bounce {
-
   0%,
   100% {
     transform: translateY(0);
-    /* Початкове і кінцеве положення */
   }
 
   50% {
     transform: translateY(-10px);
-    /* Піднімання на 10px */
   }
 }
 
 .hero-list-item {
   display: inline-block;
-
   animation: bounce 1.6s ease-in-out infinite;
-  /* Анімація з циклом */
 }
 
-/* Додаємо затримку для кожного елемента */
 .hero-list-item:nth-child(1) {
   animation-delay: 0s;
 }
@@ -151,14 +149,10 @@
   animation-delay: 1.2s;
 }
 
-
 .hero-social-link:hover {
-
-
-  border: #ed3b44;
+  border: 1px solid#ed3b44;
   box-shadow: 0 0 15px #ed3b44;
   color: #ed3b44;
-
 }
 
 .hero-social-link.hero-email-link {

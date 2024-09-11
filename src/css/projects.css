@@ -1,3 +1,5 @@
+.projects-container {}
+
 .projects-title {
   margin-bottom: 32px;
   font-size: 16px;
@@ -22,13 +24,15 @@
   padding: 32px;
   border-radius: 24px 24px 0 0;
 }
+
 .projects-tags {
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
   margin-bottom: 96px;
 }
-.projects-tags > span {
+
+.projects-tags>span {
   border: 1px solid rgba(28, 29, 32, 0.2);
   border-radius: 60px;
   padding: 13px 18px;
@@ -36,6 +40,7 @@
   letter-spacing: -0.02em;
   color: #1c1d20;
 }
+
 .projects-subtitle {
   font-weight: 500;
   font-size: 24px;
@@ -75,6 +80,7 @@
 .projects-swiper-btn-disabled {
   opacity: 0.2;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 .projects-btn-prev,
@@ -88,24 +94,25 @@
   border-radius: 60px;
   width: 52px;
   height: 52px;
-  cursor: pointer;
   background-color: transparent;
+  transition: 0.35s ease-in-out;
 }
 
 .projects-btn-prev:hover,
 .projects-btn-next:hover {
-  box-shadow: 0 0 10px #ed3b44, 0 0 20px rgba(255, 255, 255, 0.5);
-  background-color: #2d2e30;
+  border-color: #ed3b44;
+  box-shadow: 0 0 15px #ed3b44;
 }
 
 .projects-swiper-btn-prev,
 .projects-swiper-btn-next {
   stroke: #fafafa;
   fill: none;
+  transition: 0.35s ease-in-out;
 }
 
-.projects-swiper-btn-prev:hover,
-.projects-swiper-btn-next:hover {
+.projects-btn-prev:hover .projects-swiper-btn-prev,
+.projects-btn-next:hover .projects-swiper-btn-next {
   stroke: #ed3b44;
 }
 
@@ -113,12 +120,15 @@
   .projects-list-wrapper {
     margin-bottom: 64px;
   }
+
   .projects-white-bg {
     padding: 64px;
   }
-  .projects-tags > span {
+
+  .projects-tags>span {
     padding: 18px;
   }
+
   .projects-tags {
     margin-bottom: 164px;
   }
@@ -131,6 +141,7 @@
     color: #1c1d20;
     max-width: 494px;
   }
+
   .projects-image {
     padding: 120px 45px;
   }

@@ -40,16 +40,22 @@ new Swiper('.about-skills', {
   wrapperClass: 'about-skills-list',
   slidesPerView: 2,
   loopedSlides: 2,
-  spaceBetween: 1,
+  spaceBetween:0,
   loop: true,
   breakpoints: {
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+    },
     768: {
       slidesPerView: 3,
+      spaceBetween: 0,
     },
     1440: {
-      slidesPerView: 5,
-      loopedSlides: 5,
+      slidesPerView: 6,
+      spaceBetween: 0,
     },
+  
   },
 });
 

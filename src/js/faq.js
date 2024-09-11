@@ -25,4 +25,3 @@ faqButtons.forEach(button => {
         button.classList.toggle('rotate');
     });
 });
-

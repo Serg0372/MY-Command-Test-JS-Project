@@ -227,19 +227,20 @@ html {
   }
 
  .header.fixed {
-   background: rgba(28, 29, 32, 0.8);
-   padding: 0 32px;
-   height: 72px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   transition: all 0.35s ease-in-out;
-   border: 1px solid transparent;
-   
- }
+   background: rgb(105, 41, 45, 0.6);
+padding: 0 32px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.35s ease-in-out;
+  border-bottom: 1px solid transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
 
  .header.fixed:hover {
-   border: 1px solid rgba(237, 59, 68, 0.8);
+   border-bottom: 1px solid rgba(237, 59, 68, 0.8);
    
  }
 

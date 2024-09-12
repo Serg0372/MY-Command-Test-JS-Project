@@ -253,6 +253,7 @@
   height: 100%;
   z-index: 1000;
   overflow: hidden;
+  transition: 0.35s ease-in-out;
 }
 
 .work-t-backdrop {
@@ -326,6 +327,10 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(250, 250, 250, 0.6);
+}
+
+.work-t-modal:hover .work-t-modal-message{
+color: #fafafa;
 }
 
 @media screen and (min-width: 768px) {

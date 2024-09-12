@@ -240,20 +240,14 @@ padding: 0 32px;
   -webkit-backdrop-filter: blur(10px);
 }
 
- /* .header.fixed:hover {
-   border-bottom: 1px solid rgba(237, 59, 68, 0.8);
-   
- } */
 
   
   .header.fixed .header-container {
     width: 100%;
-    padding: 0 32px;
+    padding: 10px 32px;
        display: flex;
     justify-content: space-between;
-   
     align-items: center;
-    
   }
   
   .header.fixed .header-logo {

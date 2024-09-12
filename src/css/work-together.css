@@ -1,27 +1,3 @@
-/* .footer {
-  padding: 20px 0;
-}
-.footer-desc {
-  text-align: center;
-}
-.footer-link {
-  position: relative;
-}
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
-} */
-
-/* +++++++ my +++++++ */
-
 .work-t-allingment {
   display: flex;
   flex-wrap: wrap;
@@ -41,18 +17,18 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #fafafa;
-  transition: all .85s ease-in-out;
+  transition: all 0.85s ease-in-out;
 }
 
 .work-t-text-insert {
   color: #ed3b44;
-  transition: all .85s ease-in-out;
+  transition: all 0.85s ease-in-out;
 }
 
-.work-t-h-two:hover {
+.work-t-allingment:hover .work-t-h-two {
   color: #ed3b44;
 }
-.work-t-h-two:hover .work-t-text-insert{
+.work-t-allingment:hover .work-t-text-insert {
   color: #fafafa;
 }
 
@@ -82,11 +58,11 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  transition: all .35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 .work-t-input-email:hover,
- .work-t-input-email:focus{
+.work-t-input-email:focus {
   opacity: 100%;
   border-bottom: solid 1px rgba(250, 250, 250, 0.5);
   color: #ed3b44;
@@ -95,7 +71,7 @@
 .work-t-input-textarea-container {
   max-width: 100%;
   height: 44px;
-  transition: all .35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 .work-t-input-textarea {
@@ -112,16 +88,15 @@
   padding-top: 15px;
   outline: none;
   overflow: auto;
-  transition: all .35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 .work-t-input-textarea:hover,
- .work-t-input-textarea:focus{
+.work-t-input-textarea:focus {
   opacity: 100%;
   border-bottom: solid 1px rgba(250, 250, 250, 0.5);
-    color: #ed3b44;
+  color: #ed3b44;
 }
-
 
 .work-t-btn {
   width: 100px;
@@ -136,15 +111,13 @@
   padding: 0;
   margin-bottom: 64px;
   margin-top: 32px;
-  transition: all .35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 .work-t-btn:hover {
   background-color: #e0373f;
   box-shadow: 0 0 25px #ed3b44;
 }
-
-
 
 .work-t-contacts {
   display: flex;
@@ -160,16 +133,15 @@
   letter-spacing: -0.02em;
   color: #fafafa;
   font-style: normal;
-  transition: all .35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 .work-t-list-item:hover,
-.work-t-list-item:focus{
+.work-t-list-item:focus {
   border: 1px solid #ed3b44;
   box-shadow: 0 0 15px #ed3b44;
   color: #ed3b44;
 }
-
 
 .work-t-list-item-link {
   padding-top: 10px;

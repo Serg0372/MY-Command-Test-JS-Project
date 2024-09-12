@@ -156,6 +156,11 @@
     width: 68px;
     height: 68px;
   }
+    .projects-swiper-btn-prev,
+    .projects-swiper-btn-next {
+      width: 32px;
+        height: 32px;
+    }
 }
 
 @media screen and (min-width: 1440px) {

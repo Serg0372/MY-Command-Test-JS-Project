@@ -111,14 +111,10 @@
 
 .btn-svg-opn:hover {
     box-shadow: 0 0 10px #ed3b44;
-    background-color: #2d2e30;
     border-color: #ed3b44;
 }
 
-/* .accordion-item.is-active .btn-svg-opn {
-    padding-top: 6px;
-    padding-left: 5.5px;
-} */
+
 
 .rotate {
     transform: rotate(180deg);

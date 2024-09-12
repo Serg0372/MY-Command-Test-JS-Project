@@ -285,18 +285,28 @@
   line-height: 0;
   padding: 0;
   background-color: inherit;
-  border: none;
+  border: 1px solid transparent;
+  border-radius: 50%;
   position: absolute;
   top: 20px;
   right: 20px;
+  transition: all 0.35s ease-in-out;
+}
+.work-t-modal-btn-icon{
+  stroke: #fafafa;
+    fill: none;
+    transition: 0.35s ease-in-out;
 }
 
+
 .work-t-modal-close-btn:hover {
-  transform: scale(1);
-  transition: box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 15px #ed3b44;
+  border: 1px solid #ed3b44;
   color: #ed3b44;
+}
+
+.work-t-modal-close-btn:hover .work-t-modal-btn-icon{
+  stroke:#ed3b44; 
 }
 
 .work-t-modal-h-three {

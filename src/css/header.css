@@ -227,7 +227,8 @@ html {
   }
 
  .header.fixed {
-   background: rgb(105, 41, 45, 0.6);
+  
+   background: rgb(0, 0, 0, 0.6);
 padding: 0 32px;
   height: 72px;
   display: flex;
@@ -239,10 +240,10 @@ padding: 0 32px;
   -webkit-backdrop-filter: blur(10px);
 }
 
- .header.fixed:hover {
+ /* .header.fixed:hover {
    border-bottom: 1px solid rgba(237, 59, 68, 0.8);
    
- }
+ } */
 
   
   .header.fixed .header-container {

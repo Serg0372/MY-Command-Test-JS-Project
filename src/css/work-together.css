@@ -122,6 +122,7 @@
 .work-t-contacts {
   display: flex;
   gap: 4px;
+  padding-bottom: 10px;
 }
 
 .work-t-list-item {
